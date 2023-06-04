@@ -77,40 +77,8 @@ h6 {
   width: 220px;
 }
 
-#header .profile h1 {
-  font-size: 24px;
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-}
-
-#header .profile h1 a,
-#header .profile h1 a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-#header .profile .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #fff;
-  color: #000;
-  line-height: 0;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#header .profile .social-links a:hover {
-  background: #37b3ed;
-  color: #fff;
-  text-decoration: none;
+#header h4 {
+  width: 250px;
 }
 
 #main {
@@ -160,22 +128,23 @@ h6 {
   padding-right: 8px;
   color: #fff;
 }
-/*
+
+li:hover {
+  background: white;
+  border-radius: 10px;
+  width: 250px;
+}
+
 .nav-menu a:hover,
-.nav-menu .active,
-.nav-menu .active:focus,
 .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 .nav-menu a:hover i,
-.nav-menu .active i,
-.nav-menu .active:focus i,
 .nav-menu li:hover > a i {
   color: #000;
 }
-*/
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
